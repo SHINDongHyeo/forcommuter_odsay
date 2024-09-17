@@ -1,4 +1,8 @@
 node_moudules
 .env
 .env.*
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> fd9005d7a497991f4da65521e32642e3a4576f38
