@@ -1,0 +1,2118 @@
+{
+    "searchPubTransPathT": {
+        "result": {
+            "searchType": 0,
+            "outTrafficCheck": 0,
+            "busCount": 6,
+            "subwayCount": 1,
+            "subwayBusCount": 0,
+            "pointDistance": 1967,
+            "startRadius": 700,
+            "endRadius": 700,
+            "path": [
+                {
+                    "pathType": 1,
+                    "info": {
+                        "trafficDistance": 2000.0,
+                        "totalWalk": 10,
+                        "totalTime": 6,
+                        "payment": 1400,
+                        "busTransitCount": 0,
+                        "subwayTransitCount": 1,
+                        "mapObj": "2:2:237:238",
+                        "firstStartStation": "당산",
+                        "lastEndStation": "합정",
+                        "totalStationCount": 1,
+                        "busStationCount": 0,
+                        "subwayStationCount": 1,
+                        "totalDistance": 2010.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 5
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 8,
+                            "sectionTime": 1
+                        },
+                        {
+                            "trafficType": 1,
+                            "distance": 2000,
+                            "sectionTime": 4,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "name": "수도권 2호선",
+                                    "subwayCode": 2,
+                                    "subwayCityCode": 1000
+                                }
+                            ],
+                            "intervalTime": 5,
+                            "startName": "당산",
+                            "startX": 126.902677,
+                            "startY": 37.534871,
+                            "endName": "합정",
+                            "endX": 126.914521,
+                            "endY": 37.549929,
+                            "way": "합정",
+                            "wayCode": 2,
+                            "door": "null",
+                            "startID": 237,
+                            "endID": 238,
+                            "startExitNo": "4",
+                            "startExitX": 126.90312646336636,
+                            "startExitY": 37.53514620126178,
+                            "endExitNo": "10",
+                            "endExitX": 126.91397741741352,
+                            "endExitY": 37.54990320927614,
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 237,
+                                        "stationName": "당산",
+                                        "x": "126.902682",
+                                        "y": "37.534875"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 238,
+                                        "stationName": "합정",
+                                        "x": "126.914523",
+                                        "y": "37.549935"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 2,
+                            "sectionTime": 1
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 2273.0,
+                        "totalWalk": 353,
+                        "totalTime": 16,
+                        "payment": 1500,
+                        "busTransitCount": 1,
+                        "subwayTransitCount": 0,
+                        "mapObj": "1154:1:35:38",
+                        "firstStartStation": "당산역",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 2,
+                        "busStationCount": 2,
+                        "subwayStationCount": 0,
+                        "totalDistance": 2626.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 8
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 174,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 2273,
+                            "sectionTime": 10,
+                            "stationCount": 2,
+                            "lane": [
+                                {
+                                    "busNo": "5714",
+                                    "type": 12,
+                                    "busID": 1154,
+                                    "busLocalBlID": "100100288",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "603",
+                                    "type": 11,
+                                    "busID": 1168,
+                                    "busLocalBlID": "100100088",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "761",
+                                    "type": 11,
+                                    "busID": 618,
+                                    "busLocalBlID": "111000014",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 8,
+                            "startName": "당산역",
+                            "startX": 126.900803,
+                            "startY": 37.534611,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 102320,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "118000087",
+                            "startArsID": "19-172",
+                            "endID": 193771,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "14-011",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 102320,
+                                        "stationName": "당산역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000087",
+                                        "arsID": "19-172",
+                                        "x": "126.900803",
+                                        "y": "37.534611",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 112432,
+                                        "stationName": "선유도공원",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000193",
+                                        "arsID": "19-278",
+                                        "x": "126.9029",
+                                        "y": "37.542037",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 5009696,
+                                        "stationName": "합정역(가상)",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000508",
+                                        "arsID": "14-098",
+                                        "x": "126.909934",
+                                        "y": "37.54785",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 3,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000424",
+                                        "arsID": "14-011",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 179,
+                            "sectionTime": 3
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 1471.0,
+                        "totalWalk": 746,
+                        "totalTime": 20,
+                        "payment": 1500,
+                        "busTransitCount": 1,
+                        "subwayTransitCount": 0,
+                        "mapObj": "1152:1:39:41",
+                        "firstStartStation": "양화대교전망카페",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 1,
+                        "busStationCount": 1,
+                        "subwayStationCount": 0,
+                        "totalDistance": 2217.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 9
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 567,
+                            "sectionTime": 9
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 1471,
+                            "sectionTime": 8,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "5712",
+                                    "type": 12,
+                                    "busID": 1152,
+                                    "busLocalBlID": "100100286",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "602",
+                                    "type": 11,
+                                    "busID": 1166,
+                                    "busLocalBlID": "100100087",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "6716",
+                                    "type": 12,
+                                    "busID": 1197,
+                                    "busLocalBlID": "100100451",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "604",
+                                    "type": 11,
+                                    "busID": 1169,
+                                    "busLocalBlID": "100100089",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                },
+                                {
+                                    "busNo": "6712",
+                                    "type": 12,
+                                    "busID": 1228,
+                                    "busLocalBlID": "100100330",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 9,
+                            "startName": "양화대교전망카페",
+                            "startX": 126.901212,
+                            "startY": 37.539895,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 193943,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "118000489",
+                            "startArsID": "19-846",
+                            "endID": 193771,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "14-011",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 193943,
+                                        "stationName": "양화대교전망카페",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000489",
+                                        "arsID": "19-846",
+                                        "x": "126.901212",
+                                        "y": "37.539895",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 5009696,
+                                        "stationName": "합정역(가상)",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000508",
+                                        "arsID": "14-098",
+                                        "x": "126.909934",
+                                        "y": "37.54785",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000424",
+                                        "arsID": "14-011",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 179,
+                            "sectionTime": 3
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 2249.0,
+                        "totalWalk": 704,
+                        "totalTime": 21,
+                        "payment": 1500,
+                        "busTransitCount": 1,
+                        "subwayTransitCount": 0,
+                        "mapObj": "1279:1:29:32",
+                        "firstStartStation": "영등포세무서.선유고등학교",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 2,
+                        "busStationCount": 2,
+                        "subwayStationCount": 0,
+                        "totalDistance": 2953.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 10
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 525,
+                            "sectionTime": 8
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 2249,
+                            "sectionTime": 10,
+                            "stationCount": 2,
+                            "lane": [
+                                {
+                                    "busNo": "7612",
+                                    "type": 12,
+                                    "busID": 1279,
+                                    "busLocalBlID": "100100346",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 10,
+                            "startName": "영등포세무서.선유고등학교",
+                            "startX": 126.896823,
+                            "startY": 37.534402,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 102213,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "118000137",
+                            "startArsID": "19-222",
+                            "endID": 193771,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "14-011",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 102213,
+                                        "stationName": "영등포세무서.선유고등학교",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000137",
+                                        "arsID": "19-222",
+                                        "x": "126.896823",
+                                        "y": "37.534402",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 112432,
+                                        "stationName": "선유도공원",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000193",
+                                        "arsID": "19-278",
+                                        "x": "126.9029",
+                                        "y": "37.542037",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 5009696,
+                                        "stationName": "합정역(가상)",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000508",
+                                        "arsID": "14-098",
+                                        "x": "126.909934",
+                                        "y": "37.54785",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 3,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000424",
+                                        "arsID": "14-011",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 179,
+                            "sectionTime": 3
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 2262.0,
+                        "totalWalk": 353,
+                        "totalTime": 16,
+                        "payment": 2500,
+                        "busTransitCount": 1,
+                        "subwayTransitCount": 0,
+                        "mapObj": "2811226:1:25:27",
+                        "firstStartStation": "당산역",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 1,
+                        "busStationCount": 1,
+                        "subwayStationCount": 0,
+                        "totalDistance": 2615.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 30
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 174,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 2262,
+                            "sectionTime": 10,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "N51",
+                                    "type": 11,
+                                    "busID": 2811226,
+                                    "busLocalBlID": "117000002",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 30,
+                            "startName": "당산역",
+                            "startX": 126.900803,
+                            "startY": 37.534611,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 102320,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "118000087",
+                            "startArsID": "19-172",
+                            "endID": 193771,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "14-011",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 102320,
+                                        "stationName": "당산역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "118000087",
+                                        "arsID": "19-172",
+                                        "x": "126.900803",
+                                        "y": "37.534611",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 5009696,
+                                        "stationName": "합정역(가상)",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000508",
+                                        "arsID": "14-098",
+                                        "x": "126.909934",
+                                        "y": "37.54785",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000424",
+                                        "arsID": "14-011",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 179,
+                            "sectionTime": 3
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 2854.0,
+                        "totalWalk": 534,
+                        "totalTime": 28,
+                        "payment": 3000,
+                        "busTransitCount": 3,
+                        "subwayTransitCount": 0,
+                        "mapObj": "21129:1:26:28@1549:1:15:16@989:1:76:77",
+                        "firstStartStation": "당산역광역환승센터(2번승강장)",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 3,
+                        "busStationCount": 3,
+                        "subwayStationCount": 0,
+                        "totalDistance": 3388.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 47
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 193,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 2225,
+                            "sectionTime": 8,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "1100",
+                                    "type": 14,
+                                    "busID": 21129,
+                                    "busLocalBlID": "165000146",
+                                    "busCityCode": 2000,
+                                    "busProviderCode": 6
+                                }
+                            ],
+                            "intervalTime": 35,
+                            "startName": "당산역광역환승센터(2번승강장)",
+                            "startX": 126.903138,
+                            "startY": 37.536633,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 5022100,
+                            "startStationCityCode": 2000,
+                            "startStationProviderCode": 6,
+                            "startLocalStationID": "118000621",
+                            "startArsID": "19-019",
+                            "endID": 193771,
+                            "endStationCityCode": 2000,
+                            "endStationProviderCode": 6,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "23-029",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 5022100,
+                                        "stationName": "당산역광역환승센터(2번승강장)",
+                                        "stationCityCode": 2000,
+                                        "stationProviderCode": 6,
+                                        "localStationID": "118000621",
+                                        "arsID": "19-019",
+                                        "x": "126.903138",
+                                        "y": "37.536633",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 5009696,
+                                        "stationName": "합정역(가상)",
+                                        "stationCityCode": 2000,
+                                        "stationProviderCode": 6,
+                                        "localStationID": "113000508",
+                                        "arsID": "14-098",
+                                        "x": "126.909934",
+                                        "y": "37.54785",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 2000,
+                                        "stationProviderCode": 6,
+                                        "localStationID": "113000424",
+                                        "arsID": "23-029",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 67,
+                            "sectionTime": 1
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 275,
+                            "sectionTime": 6,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "마포16",
+                                    "type": 3,
+                                    "busID": 1549,
+                                    "busLocalBlID": "113900009",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 10
+                                }
+                            ],
+                            "intervalTime": 6,
+                            "startName": "양화진성지공원입구",
+                            "startX": 126.912322,
+                            "startY": 37.548602,
+                            "endName": "합정역",
+                            "endX": 126.914692,
+                            "endY": 37.549804,
+                            "startID": 162859,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 10,
+                            "startLocalStationID": "113000125",
+                            "startArsID": "14-216",
+                            "endID": 102806,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 10,
+                            "endLocalStationID": "113900122",
+                            "endArsID": "14-835",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 162859,
+                                        "stationName": "양화진성지공원입구",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 10,
+                                        "localStationID": "113000125",
+                                        "arsID": "14-216",
+                                        "x": "126.912322",
+                                        "y": "37.548602",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 102806,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 10,
+                                        "localStationID": "113900122",
+                                        "arsID": "14-835",
+                                        "x": "126.914692",
+                                        "y": "37.549804",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 208,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 354,
+                            "sectionTime": 6,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "271",
+                                    "type": 11,
+                                    "busID": 989,
+                                    "busLocalBlID": "100100047",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 6,
+                            "startName": "마포한강푸르지오",
+                            "startX": 126.912631,
+                            "startY": 37.550704,
+                            "endName": "합정역",
+                            "endX": 126.915219,
+                            "endY": 37.550188,
+                            "startID": 102748,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "113000154",
+                            "startArsID": "14-245",
+                            "endID": 102820,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000129",
+                            "endArsID": "14-220",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 102748,
+                                        "stationName": "마포한강푸르지오",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000154",
+                                        "arsID": "14-245",
+                                        "x": "126.912631",
+                                        "y": "37.550704",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 102820,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000129",
+                                        "arsID": "14-220",
+                                        "x": "126.915219",
+                                        "y": "37.550188",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 66,
+                            "sectionTime": 1
+                        }
+                    ]
+                },
+                {
+                    "pathType": 2,
+                    "info": {
+                        "trafficDistance": 2873.0,
+                        "totalWalk": 534,
+                        "totalTime": 28,
+                        "payment": 2800,
+                        "busTransitCount": 3,
+                        "subwayTransitCount": 0,
+                        "mapObj": "13003:1:26:28@1549:1:15:16@989:1:76:77",
+                        "firstStartStation": "당산역광역환승센터(2번승강장)",
+                        "lastEndStation": "합정역",
+                        "totalStationCount": 3,
+                        "busStationCount": 3,
+                        "subwayStationCount": 0,
+                        "totalDistance": 3407.0,
+                        "totalWalkTime": -1,
+                        "checkIntervalTime": 100,
+                        "checkIntervalTimeOverYn": "N",
+                        "totalIntervalTime": 52
+                    },
+                    "subPath": [
+                        {
+                            "trafficType": 3,
+                            "distance": 193,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 2244,
+                            "sectionTime": 8,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "1004",
+                                    "type": 4,
+                                    "busID": 13003,
+                                    "busLocalBlID": "232000073",
+                                    "busCityCode": 1170,
+                                    "busProviderCode": 2
+                                },
+                                {
+                                    "busNo": "G6000",
+                                    "type": 4,
+                                    "busID": 13035,
+                                    "busLocalBlID": "232000090",
+                                    "busCityCode": 1170,
+                                    "busProviderCode": 2
+                                }
+                            ],
+                            "intervalTime": 40,
+                            "startName": "당산역광역환승센터(2번승강장)",
+                            "startX": 126.903138,
+                            "startY": 37.536633,
+                            "endName": "합정역",
+                            "endX": 126.912939,
+                            "endY": 37.548959,
+                            "startID": 5022100,
+                            "startStationCityCode": 1170,
+                            "startStationProviderCode": 2,
+                            "startLocalStationID": "118000621",
+                            "startArsID": "19-019",
+                            "endID": 193771,
+                            "endStationCityCode": 1170,
+                            "endStationProviderCode": 2,
+                            "endLocalStationID": "113000424",
+                            "endArsID": "82-041",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 5022100,
+                                        "stationName": "당산역광역환승센터(2번승강장)",
+                                        "stationCityCode": 1170,
+                                        "stationProviderCode": 2,
+                                        "localStationID": "118000621",
+                                        "arsID": "19-019",
+                                        "x": "126.903138",
+                                        "y": "37.536633",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 91995,
+                                        "stationName": "양화대교남단",
+                                        "stationCityCode": 1170,
+                                        "stationProviderCode": 2,
+                                        "localStationID": "277103534",
+                                        "arsID": "",
+                                        "x": "126.900615",
+                                        "y": "37.538168",
+                                        "isNonStop": "Y"
+                                    },
+                                    {
+                                        "index": 2,
+                                        "stationID": 193771,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1170,
+                                        "stationProviderCode": 2,
+                                        "localStationID": "113000424",
+                                        "arsID": "82-041",
+                                        "x": "126.912939",
+                                        "y": "37.548959",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 67,
+                            "sectionTime": 1
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 275,
+                            "sectionTime": 6,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "마포16",
+                                    "type": 3,
+                                    "busID": 1549,
+                                    "busLocalBlID": "113900009",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 10
+                                }
+                            ],
+                            "intervalTime": 6,
+                            "startName": "양화진성지공원입구",
+                            "startX": 126.912322,
+                            "startY": 37.548602,
+                            "endName": "합정역",
+                            "endX": 126.914692,
+                            "endY": 37.549804,
+                            "startID": 162859,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 10,
+                            "startLocalStationID": "113000125",
+                            "startArsID": "14-216",
+                            "endID": 102806,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 10,
+                            "endLocalStationID": "113900122",
+                            "endArsID": "14-835",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 162859,
+                                        "stationName": "양화진성지공원입구",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 10,
+                                        "localStationID": "113000125",
+                                        "arsID": "14-216",
+                                        "x": "126.912322",
+                                        "y": "37.548602",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 102806,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 10,
+                                        "localStationID": "113900122",
+                                        "arsID": "14-835",
+                                        "x": "126.914692",
+                                        "y": "37.549804",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 208,
+                            "sectionTime": 3
+                        },
+                        {
+                            "trafficType": 2,
+                            "distance": 354,
+                            "sectionTime": 6,
+                            "stationCount": 1,
+                            "lane": [
+                                {
+                                    "busNo": "271",
+                                    "type": 11,
+                                    "busID": 989,
+                                    "busLocalBlID": "100100047",
+                                    "busCityCode": 1000,
+                                    "busProviderCode": 4
+                                }
+                            ],
+                            "intervalTime": 6,
+                            "startName": "마포한강푸르지오",
+                            "startX": 126.912631,
+                            "startY": 37.550704,
+                            "endName": "합정역",
+                            "endX": 126.915219,
+                            "endY": 37.550188,
+                            "startID": 102748,
+                            "startStationCityCode": 1000,
+                            "startStationProviderCode": 4,
+                            "startLocalStationID": "113000154",
+                            "startArsID": "14-245",
+                            "endID": 102820,
+                            "endStationCityCode": 1000,
+                            "endStationProviderCode": 4,
+                            "endLocalStationID": "113000129",
+                            "endArsID": "14-220",
+                            "passStopList": {
+                                "stations": [
+                                    {
+                                        "index": 0,
+                                        "stationID": 102748,
+                                        "stationName": "마포한강푸르지오",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000154",
+                                        "arsID": "14-245",
+                                        "x": "126.912631",
+                                        "y": "37.550704",
+                                        "isNonStop": "N"
+                                    },
+                                    {
+                                        "index": 1,
+                                        "stationID": 102820,
+                                        "stationName": "합정역",
+                                        "stationCityCode": 1000,
+                                        "stationProviderCode": 4,
+                                        "localStationID": "113000129",
+                                        "arsID": "14-220",
+                                        "x": "126.915219",
+                                        "y": "37.550188",
+                                        "isNonStop": "N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "trafficType": 3,
+                            "distance": 66,
+                            "sectionTime": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "loadLane":[{
+        "result": {
+            "lane": [
+                {
+                    "class": 1,
+                    "type": 4,
+                    "section": [
+                        {
+                            "graphPos": [
+                                {
+                                    "x": 127.099082,
+                                    "y": 37.199905
+                                },
+                                {
+                                    "x": 127.099068,
+                                    "y": 37.204942
+                                },
+                                {
+                                    "x": 127.099065,
+                                    "y": 37.208042
+                                },
+                                {
+                                    "x": 127.099074,
+                                    "y": 37.209142
+                                },
+                                {
+                                    "x": 127.099064,
+                                    "y": 37.210944
+                                },
+                                {
+                                    "x": 127.099105,
+                                    "y": 37.211296
+                                },
+                                {
+                                    "x": 127.099179,
+                                    "y": 37.211693
+                                },
+                                {
+                                    "x": 127.099332,
+                                    "y": 37.212099
+                                },
+                                {
+                                    "x": 127.09942,
+                                    "y": 37.212262
+                                },
+                                {
+                                    "x": 127.099641,
+                                    "y": 37.212606
+                                },
+                                {
+                                    "x": 127.099908,
+                                    "y": 37.212942
+                                },
+                                {
+                                    "x": 127.100152,
+                                    "y": 37.213205
+                                },
+                                {
+                                    "x": 127.100476,
+                                    "y": 37.21346
+                                },
+                                {
+                                    "x": 127.100699,
+                                    "y": 37.213632
+                                },
+                                {
+                                    "x": 127.101247,
+                                    "y": 37.214015
+                                },
+                                {
+                                    "x": 127.101839,
+                                    "y": 37.214443
+                                },
+                                {
+                                    "x": 127.102219,
+                                    "y": 37.214734
+                                },
+                                {
+                                    "x": 127.102957,
+                                    "y": 37.215154
+                                },
+                                {
+                                    "x": 127.103281,
+                                    "y": 37.215418
+                                },
+                                {
+                                    "x": 127.103493,
+                                    "y": 37.2156
+                                },
+                                {
+                                    "x": 127.103638,
+                                    "y": 37.215754
+                                },
+                                {
+                                    "x": 127.103748,
+                                    "y": 37.215935
+                                },
+                                {
+                                    "x": 127.10388,
+                                    "y": 37.216189
+                                },
+                                {
+                                    "x": 127.103957,
+                                    "y": 37.216387
+                                },
+                                {
+                                    "x": 127.104032,
+                                    "y": 37.216658
+                                },
+                                {
+                                    "x": 127.104127,
+                                    "y": 37.217245
+                                },
+                                {
+                                    "x": 127.104141,
+                                    "y": 37.217966
+                                },
+                                {
+                                    "x": 127.104111,
+                                    "y": 37.218605
+                                },
+                                {
+                                    "x": 127.104088,
+                                    "y": 37.219623
+                                },
+                                {
+                                    "x": 127.104028,
+                                    "y": 37.219911
+                                },
+                                {
+                                    "x": 127.103935,
+                                    "y": 37.220163
+                                },
+                                {
+                                    "x": 127.103843,
+                                    "y": 37.220297
+                                },
+                                {
+                                    "x": 127.103774,
+                                    "y": 37.220405
+                                },
+                                {
+                                    "x": 127.10366,
+                                    "y": 37.220512
+                                },
+                                {
+                                    "x": 127.103535,
+                                    "y": 37.220592
+                                },
+                                {
+                                    "x": 127.10341,
+                                    "y": 37.220673
+                                },
+                                {
+                                    "x": 127.103263,
+                                    "y": 37.220735
+                                },
+                                {
+                                    "x": 127.103128,
+                                    "y": 37.22077
+                                },
+                                {
+                                    "x": 127.102969,
+                                    "y": 37.220804
+                                },
+                                {
+                                    "x": 127.102485,
+                                    "y": 37.220837
+                                },
+                                {
+                                    "x": 127.102259,
+                                    "y": 37.220862
+                                },
+                                {
+                                    "x": 127.10209,
+                                    "y": 37.220888
+                                },
+                                {
+                                    "x": 127.101976,
+                                    "y": 37.220923
+                                },
+                                {
+                                    "x": 127.101841,
+                                    "y": 37.220976
+                                },
+                                {
+                                    "x": 127.101738,
+                                    "y": 37.221038
+                                },
+                                {
+                                    "x": 127.101636,
+                                    "y": 37.221128
+                                },
+                                {
+                                    "x": 127.101556,
+                                    "y": 37.221235
+                                },
+                                {
+                                    "x": 127.101476,
+                                    "y": 37.221352
+                                },
+                                {
+                                    "x": 127.101418,
+                                    "y": 37.22145
+                                },
+                                {
+                                    "x": 127.101372,
+                                    "y": 37.221549
+                                },
+                                {
+                                    "x": 127.101359,
+                                    "y": 37.221648
+                                },
+                                {
+                                    "x": 127.101358,
+                                    "y": 37.221756
+                                },
+                                {
+                                    "x": 127.101402,
+                                    "y": 37.221865
+                                },
+                                {
+                                    "x": 127.101522,
+                                    "y": 37.222163
+                                },
+                                {
+                                    "x": 127.101732,
+                                    "y": 37.222543
+                                },
+                                {
+                                    "x": 127.101732,
+                                    "y": 37.222543
+                                },
+                                {
+                                    "x": 127.102021,
+                                    "y": 37.222906
+                                },
+                                {
+                                    "x": 127.102753,
+                                    "y": 37.223849
+                                },
+                                {
+                                    "x": 127.103705,
+                                    "y": 37.225325
+                                },
+                                {
+                                    "x": 127.103781,
+                                    "y": 37.225523
+                                },
+                                {
+                                    "x": 127.104003,
+                                    "y": 37.22584
+                                },
+                                {
+                                    "x": 127.104402,
+                                    "y": 37.226402
+                                },
+                                {
+                                    "x": 127.104701,
+                                    "y": 37.226855
+                                },
+                                {
+                                    "x": 127.105,
+                                    "y": 37.227272
+                                },
+                                {
+                                    "x": 127.105655,
+                                    "y": 37.228151
+                                },
+                                {
+                                    "x": 127.106598,
+                                    "y": 37.229428
+                                },
+                                {
+                                    "x": 127.10683,
+                                    "y": 37.229818
+                                },
+                                {
+                                    "x": 127.107136,
+                                    "y": 37.230568
+                                },
+                                {
+                                    "x": 127.107331,
+                                    "y": 37.231254
+                                },
+                                {
+                                    "x": 127.107399,
+                                    "y": 37.232156
+                                },
+                                {
+                                    "x": 127.107182,
+                                    "y": 37.233344
+                                },
+                                {
+                                    "x": 127.106676,
+                                    "y": 37.235214
+                                },
+                                {
+                                    "x": 127.106676,
+                                    "y": 37.235214
+                                },
+                                {
+                                    "x": 127.106051,
+                                    "y": 37.237579
+                                },
+                                {
+                                    "x": 127.105744,
+                                    "y": 37.23873
+                                },
+                                {
+                                    "x": 127.105495,
+                                    "y": 37.239801
+                                },
+                                {
+                                    "x": 127.104587,
+                                    "y": 37.243155
+                                },
+                                {
+                                    "x": 127.104314,
+                                    "y": 37.244378
+                                },
+                                {
+                                    "x": 127.104187,
+                                    "y": 37.245531
+                                },
+                                {
+                                    "x": 127.104134,
+                                    "y": 37.246188
+                                },
+                                {
+                                    "x": 127.104117,
+                                    "y": 37.24672
+                                },
+                                {
+                                    "x": 127.104112,
+                                    "y": 37.247116
+                                },
+                                {
+                                    "x": 127.104122,
+                                    "y": 37.248153
+                                },
+                                {
+                                    "x": 127.104098,
+                                    "y": 37.250225
+                                },
+                                {
+                                    "x": 127.104062,
+                                    "y": 37.257992
+                                },
+                                {
+                                    "x": 127.104017,
+                                    "y": 37.265678
+                                },
+                                {
+                                    "x": 127.104017,
+                                    "y": 37.265678
+                                },
+                                {
+                                    "x": 127.104068,
+                                    "y": 37.268003
+                                },
+                                {
+                                    "x": 127.103994,
+                                    "y": 37.2714
+                                },
+                                {
+                                    "x": 127.104103,
+                                    "y": 37.273626
+                                },
+                                {
+                                    "x": 127.104053,
+                                    "y": 37.275023
+                                },
+                                {
+                                    "x": 127.103975,
+                                    "y": 37.275851
+                                },
+                                {
+                                    "x": 127.103952,
+                                    "y": 37.277779
+                                },
+                                {
+                                    "x": 127.103929,
+                                    "y": 37.286412
+                                },
+                                {
+                                    "x": 127.103902,
+                                    "y": 37.289664
+                                },
+                                {
+                                    "x": 127.103902,
+                                    "y": 37.289664
+                                },
+                                {
+                                    "x": 127.103876,
+                                    "y": 37.289916
+                                },
+                                {
+                                    "x": 127.103874,
+                                    "y": 37.292971
+                                },
+                                {
+                                    "x": 127.103925,
+                                    "y": 37.295359
+                                },
+                                {
+                                    "x": 127.103911,
+                                    "y": 37.298441
+                                },
+                                {
+                                    "x": 127.103886,
+                                    "y": 37.301514
+                                },
+                                {
+                                    "x": 127.103837,
+                                    "y": 37.30182
+                                },
+                                {
+                                    "x": 127.103829,
+                                    "y": 37.304424
+                                },
+                                {
+                                    "x": 127.103815,
+                                    "y": 37.307496
+                                },
+                                {
+                                    "x": 127.10378,
+                                    "y": 37.314227
+                                },
+                                {
+                                    "x": 127.103717,
+                                    "y": 37.3234
+                                },
+                                {
+                                    "x": 127.103736,
+                                    "y": 37.324643
+                                },
+                                {
+                                    "x": 127.103825,
+                                    "y": 37.326608
+                                },
+                                {
+                                    "x": 127.103825,
+                                    "y": 37.326608
+                                },
+                                {
+                                    "x": 127.103785,
+                                    "y": 37.327167
+                                },
+                                {
+                                    "x": 127.103728,
+                                    "y": 37.328112
+                                },
+                                {
+                                    "x": 127.103724,
+                                    "y": 37.329437
+                                },
+                                {
+                                    "x": 127.103695,
+                                    "y": 37.33096
+                                },
+                                {
+                                    "x": 127.103689,
+                                    "y": 37.332374
+                                },
+                                {
+                                    "x": 127.103654,
+                                    "y": 37.338222
+                                },
+                                {
+                                    "x": 127.103584,
+                                    "y": 37.349755
+                                },
+                                {
+                                    "x": 127.103584,
+                                    "y": 37.349755
+                                },
+                                {
+                                    "x": 127.103538,
+                                    "y": 37.357423
+                                },
+                                {
+                                    "x": 127.103582,
+                                    "y": 37.359433
+                                },
+                                {
+                                    "x": 127.103573,
+                                    "y": 37.361172
+                                },
+                                {
+                                    "x": 127.103537,
+                                    "y": 37.365137
+                                },
+                                {
+                                    "x": 127.103537,
+                                    "y": 37.365137
+                                },
+                                {
+                                    "x": 127.103527,
+                                    "y": 37.368804
+                                },
+                                {
+                                    "x": 127.103493,
+                                    "y": 37.370777
+                                },
+                                {
+                                    "x": 127.103508,
+                                    "y": 37.3733
+                                },
+                                {
+                                    "x": 127.103523,
+                                    "y": 37.375814
+                                },
+                                {
+                                    "x": 127.103545,
+                                    "y": 37.377743
+                                },
+                                {
+                                    "x": 127.103452,
+                                    "y": 37.379896
+                                },
+                                {
+                                    "x": 127.103456,
+                                    "y": 37.382392
+                                },
+                                {
+                                    "x": 127.10343,
+                                    "y": 37.383626
+                                },
+                                {
+                                    "x": 127.103353,
+                                    "y": 37.384409
+                                },
+                                {
+                                    "x": 127.103315,
+                                    "y": 37.38476
+                                },
+                                {
+                                    "x": 127.103158,
+                                    "y": 37.385642
+                                },
+                                {
+                                    "x": 127.102771,
+                                    "y": 37.387766
+                                },
+                                {
+                                    "x": 127.102555,
+                                    "y": 37.388873
+                                },
+                                {
+                                    "x": 127.102399,
+                                    "y": 37.389655
+                                },
+                                {
+                                    "x": 127.102037,
+                                    "y": 37.391599
+                                },
+                                {
+                                    "x": 127.101928,
+                                    "y": 37.392184
+                                },
+                                {
+                                    "x": 127.101889,
+                                    "y": 37.392616
+                                },
+                                {
+                                    "x": 127.10178,
+                                    "y": 37.393237
+                                },
+                                {
+                                    "x": 127.101717,
+                                    "y": 37.393804
+                                },
+                                {
+                                    "x": 127.101717,
+                                    "y": 37.393804
+                                },
+                                {
+                                    "x": 127.101558,
+                                    "y": 37.394794
+                                },
+                                {
+                                    "x": 127.101567,
+                                    "y": 37.394992
+                                },
+                                {
+                                    "x": 127.101611,
+                                    "y": 37.395119
+                                },
+                                {
+                                    "x": 127.1017,
+                                    "y": 37.395246
+                                },
+                                {
+                                    "x": 127.101947,
+                                    "y": 37.395383
+                                },
+                                {
+                                    "x": 127.102206,
+                                    "y": 37.395394
+                                },
+                                {
+                                    "x": 127.102376,
+                                    "y": 37.395359
+                                },
+                                {
+                                    "x": 127.102569,
+                                    "y": 37.39527
+                                },
+                                {
+                                    "x": 127.103035,
+                                    "y": 37.395012
+                                },
+                                {
+                                    "x": 127.103365,
+                                    "y": 37.394835
+                                },
+                                {
+                                    "x": 127.103886,
+                                    "y": 37.394722
+                                },
+                                {
+                                    "x": 127.104089,
+                                    "y": 37.394687
+                                },
+                                {
+                                    "x": 127.104214,
+                                    "y": 37.394652
+                                },
+                                {
+                                    "x": 127.104817,
+                                    "y": 37.394305
+                                },
+                                {
+                                    "x": 127.105737,
+                                    "y": 37.39388
+                                },
+                                {
+                                    "x": 127.107624,
+                                    "y": 37.392839
+                                },
+                                {
+                                    "x": 127.108556,
+                                    "y": 37.392342
+                                },
+                                {
+                                    "x": 127.109442,
+                                    "y": 37.391898
+                                },
+                                {
+                                    "x": 127.110394,
+                                    "y": 37.391608
+                                },
+                                {
+                                    "x": 127.11096,
+                                    "y": 37.391513
+                                },
+                                {
+                                    "x": 127.111231,
+                                    "y": 37.391479
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "boundary": {
+                "top": 37.395394,
+                "left": 127.099064,
+                "bottom": 37.199905,
+                "right": 127.111231
+            }
+        }
+    }],
+    "realtimeStation":{
+        "result": {
+            "real": [
+                {
+                    "routeId": "771",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사7036",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 3,
+                        "lowBusYn": "N",
+                        "congestion": 1,
+                        "arrivalSec": 487,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100009",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울75사3504",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 2,
+                        "lowBusYn": "N",
+                        "congestion": 1,
+                        "arrivalSec": 158,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "32",
+                    "routeNm": "104"
+                },
+                {
+                    "routeId": "1048",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사9171",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 7,
+                        "lowBusYn": "Y",
+                        "congestion": 2,
+                        "arrivalSec": 1178,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100062",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사9188",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 2,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 232,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "53",
+                    "routeNm": "401"
+                },
+                {
+                    "routeId": "1050",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사9580",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 9,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 1251,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100063",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사9560",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 3,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 333,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "59",
+                    "routeNm": "402"
+                },
+                {
+                    "routeId": "1052",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사3843",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 9,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 1418,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100064",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사4364",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 3,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 359,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "37",
+                    "routeNm": "406"
+                },
+                {
+                    "routeId": "1169",
+                    "updownFlag": "2",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사7903",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 6,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 667,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100089",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사7901",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 1,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 123,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "40",
+                    "routeNm": "604"
+                },
+                {
+                    "routeId": "1241",
+                    "updownFlag": "2",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사7920",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 12,
+                        "lowBusYn": "N",
+                        "congestion": 1,
+                        "arrivalSec": 1218,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100103",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울71사1904",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 2,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 261,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "33",
+                    "routeNm": "701"
+                },
+                {
+                    "routeId": "1346",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사7286",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 3,
+                        "lowBusYn": "N",
+                        "arrivalSec": 398,
+                        "nmprType": 1
+                    },
+                    "localRouteId": "100100389",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사6551",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 1,
+                        "lowBusYn": "N",
+                        "arrivalSec": 89,
+                        "nmprType": 1
+                    },
+                    "stationSeq": "34",
+                    "routeNm": "9401"
+                },
+                {
+                    "routeId": "1812",
+                    "updownFlag": "2",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사7782",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 34,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 3151,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100448",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울75사2946",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 16,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 1480,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "40",
+                    "routeNm": "7013B"
+                },
+                {
+                    "routeId": "1244",
+                    "updownFlag": "2",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울70사7788",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 22,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 2367,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100449",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울75사2945",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 4,
+                        "lowBusYn": "N",
+                        "congestion": 1,
+                        "arrivalSec": 377,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "39",
+                    "routeNm": "7013A"
+                },
+                {
+                    "routeId": "1242",
+                    "updownFlag": "2",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사7222",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 1,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 77,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100450",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사7206",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 1,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 21,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "34",
+                    "routeNm": "7011"
+                },
+                {
+                    "routeId": "573",
+                    "updownFlag": "1",
+                    "localRouteId": "100100591",
+                    "stationSeq": "49",
+                    "routeNm": "N30"
+                },
+                {
+                    "routeId": "572",
+                    "updownFlag": "1",
+                    "localRouteId": "100100592",
+                    "stationSeq": "96",
+                    "routeNm": "N16"
+                },
+                {
+                    "routeId": "987",
+                    "updownFlag": "1",
+                    "arrival2": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울74사4244",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 8,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 929,
+                        "nmprType": 4
+                    },
+                    "localRouteId": "100100605",
+                    "arrival1": {
+                        "fulCarAt": "0",
+                        "busPlateNo": "서울75사2418",
+                        "waitStatus": "1",
+                        "busStatus": "1",
+                        "endBusYn": "N",
+                        "leftStation": 1,
+                        "lowBusYn": "Y",
+                        "congestion": 1,
+                        "arrivalSec": 16,
+                        "nmprType": 4
+                    },
+                    "stationSeq": "56",
+                    "routeNm": "463"
+                }
+            ]
+        }
+    }
+}
