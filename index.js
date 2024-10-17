@@ -12,7 +12,7 @@ fastify.get('/odsay/dirs', async(request, reply) => {
     const url = `https://api.odsay.com/v1/api/searchPubTransPathT?SX=${SX}&SY=${SY}&EX=${EX}&EY=${EY}&apiKey=${process.env.ODSAY_API_KEY}`;
 
     if (USE_MOCK) {
-        return mockData.searchPubTransPathT;
+        return mockData.searchPubTransPath;
     } else {
         try {
             const response = await axios.get(url);
@@ -35,7 +35,7 @@ fastify.get('/odsay/bus/realtime', async(request, reply) => {
     }
     
     if (USE_MOCK) {
-        return mockData.realtimeStation;
+        return mockData.realtimeStation?.[stationID];
     } else {
         try {
             const response = await axios.get(url);
